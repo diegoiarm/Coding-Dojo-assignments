@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo II - Print 1 to x</title>
+    <script>
+
+        // Print 1 to x:
+        // Por favor, completa los siguientes códigos para que la función imprima (print) todos los enteros (integers) de 1 a x.
+        // Si x es negativo, haz que se muestre (print/log) “número negativo” y que la función devuelva falso.
+
+        function printUpTo(x) {
+            if (x < 0) {
+                console.log("El número es negativo");
+                return false
+            }
+                for (var i = 1; i <= x; i++) {
+                    console.log(i);
+                }
+        }
+        printUpTo(1000); // debería imprimir todos los enteros de 1 to 1000
+        y = printUpTo(-10); // debería imprimir false
+        console.log(y); // debería imprimir false
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

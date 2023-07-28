@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Formulario de Registro</title>
+</head>
+<body>
+    <form>
+        <h1>Mi Formulario de Registro</h1>
+        <label for="nombre">Nombre: &nbsp</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellido">Apellido: &nbsp</label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+        <label for="email">Email: &nbsp</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="contrasena">Contraseña: &nbsp</label>
+        <input type="password" id="contrasena" name="contrasena"><br><br>
+        <label for="confcontrasena">Confirmar contraseña: &nbsp</label>
+        <input type="password" id="confcontrasena" name="confcontrasena"><br><br>
+        <label for="cumpleanos">Cumpleaños: &nbsp</label>
+        <input type="date" id="cumpleanos" name="cumpleanos"><br><br>
+        <input type="radio" id="hombre" name="hombre" value="Hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="mujer" value="Mujer">
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="otro" name="otro" value="otro">
+        <label for="otro">Otro</label>
+        <p>Una breve descripción de tí:</p>
+        <textarea name="message" rows="10" cols="30"></textarea>
+        <br><br>
+        <label for="lenguaje">Lenguaje favorito:</label>
+        <select id="lenguaje" name="lenguaje">
+          <option value="JavaScript">JavaScript</option>
+          <option value="Python">Python</option>
+          <option value="C++">C++</option>
+          <option value="Swift">Swift</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

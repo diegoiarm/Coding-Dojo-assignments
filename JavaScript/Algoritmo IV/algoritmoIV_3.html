@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo IV - Ejercicio 3</title>
+    <script>
+
+        // Dado un array de números, crea una función que dé como resultado un nuevo array donde los valores negativos se reemplacen por el texto (string) ‘Dojo’.
+        // Por ejemplo, reemplazarNegativos([1,2,-3,-5,5]) debiera devolver [1,2, “Dojo”, “Dojo”, 5].
+
+        function reemplazarNegativos(arr) {
+            for (let i in arr) {
+                if (arr[i] < 0) {
+                    arr[i] = "Dojo";
+                }
+            }
+            return arr
+        }
+
+        console.log(reemplazarNegativos([-1, 1, 2, -1]))
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

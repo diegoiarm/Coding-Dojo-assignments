@@ -1,0 +1,44 @@
+div{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+.cuadrado_amarillo{
+    background-color: yellow;
+    height: 120px;
+    width: 134px;
+    display: inline-block;
+    margin: 12px;
+    margin-left: 13px;
+}
+#div_tres{
+    background-color: red;
+    height: 274px;
+    width: 504px;
+    margin-left: 206px;
+    margin-top: -229px;
+}
+#div_ocho{
+    background-color: purple;
+    height: 80px;
+    width: 476px;
+    margin-left: 2%;
+}
+#div_cuatro{
+    background-color: blue;
+    height: 223px;
+    width: 174px;
+    margin-left: 15px;
+}
+#div_uno{
+    background-color: gray;
+    width: 731px;
+    margin: 15px;
+    height: 436px;
+}
+#div_dos{
+    background-color: forestgreen;
+    height: 92px;
+    width: 696px;
+    margin: 15px;
+}

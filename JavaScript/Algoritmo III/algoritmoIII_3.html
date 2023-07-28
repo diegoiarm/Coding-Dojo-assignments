@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo III - Ejercicio 3</title>
+    <script>
+
+        // Cuadra cada valor con un array dado, obteniendo el mismo array con valores cambiados..
+
+        function squareValue(x) {
+            let squarecount = 0;
+            let newarray = [];
+            let squarenumber = 0;
+
+            for (let i = 0; i < x.length; i++) {
+                squarenumber = x[i] * x[i];
+                x[i] = squarenumber
+            }
+
+            return x;
+        }
+
+        y = squareValue([1, 2, 3]);
+        console.log(y); // should log [1,4,9]
+
+        y = squareValue([2, 5, 8]);
+        console.log(y); // should log [4,25,64]
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

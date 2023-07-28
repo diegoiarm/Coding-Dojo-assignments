@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog - S. Miyamoto</title>
+    <style>
+        img {
+          border: 5px solid black;
+        }
+
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 53%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Shigeru Miyamoto</h1>
+    <img src="Foto_Shigeru_Miyamoto.jpg" alt="Foto de Shigeru Miyamoto" width="550" height="300">
+    <p> Shigeru Miyamoto (nacido el 16 de noviembre de 1952) es un director de videojuegos, productor, artista, diseñador y director general de Nintendo. <br> Nacido en la pequeña localidad japonesa de Sonobe, está considerado uno de los desarrolladores de videojuegos más innovadores, admirados, prolíficos, influyentes y aclamados. <br> </p>
+    <h2>Algunos videojuegos que Miyamoto ha creado:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Fecha de Lanzamiento</th>
+                <th>Plataforma</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mario Bros.</td>
+                <td>1983</td>
+                <td>Arcade</td>
+            </tr>
+            <tr>
+                <td>The Legend of Zelda</td>
+                <td>1986/1987</td>
+                <td>Famicom/NES</td>
+            </tr>
+            <tr>
+                <td>Super Mario Kart</td>
+                <td>1992</td>
+                <td>Super Famicom/Super NES</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Algunos datos curiosos:</h2>
+    <ul>
+        <li>La inspiración para la creación de Marios Bros. surgió cuando Miyamoto trabajaba en Nintendo y buscaba crear un juego arcade con una mecánica única. Así surgió la idea de un juego en el que el protagonista saltase y se moviese por diferentes niveles. </li><br>
+        <li>The Legend of Zelda se inspiró principalmente en las "exploraciones" que Shigeru Miyamoto realizó de niño en las laderas, bosques y cuevas que rodeaban la casa de su infancia en Sonobe (Japón), donde se adentró en bosques con lagos recónditos, cuevas y aldeas rurales.</li><br>
+        <li>Sobre Super Mario Kart, según las palabras de Shigeru Miyamoto en una entrevista de Iwata: "Decidimos ver qué aspecto tendría con Mario en uno de los karts, y todo el mundo pensó que quedaba aún mejor. Quién sabe, ¡quizá el diseñador que dibujó el personaje anterior tenía la intención de que se cambiara por Mario desde el principio!".</li><br>
+    </ul>
+
+    <p><a href="https://www.youtube.com/watch?v=K-NBcP0YUQI" target="_blank">Clickea aquí para ver una entrevista a Shigeru Miyamoto!</a></p><br>
+
+    <h2>Por favor, contesta esta breve encuesta:</h2>
+
+    <form>
+        <label for="email">Email: &nbsp</label>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="radio" id="enviar_correos" name="enviar_correos" value="enviar correos">
+        <label for="enviar_correos">Sí, por favor envíame montones de correos</label><br><br>
+        <input type="radio" id="noenviar_correos" name="noenviar_correos" value="no enviar correos">
+        <label for="noenviar_correos">No por favor, no me mandes ningún correo</label><br>
+
+        <p>¿Cómo supiste de nosotros?</p>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Facebook</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> El periódico</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Un contacto</label><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo IV - Ejercicio 4</title>
+    <script>
+
+        // Dado un array y su respectivo índice, remueve los valores en el rango del índice dado( acortando el array).
+        // Por ejemplo, removerRango([20,30,40,50,60,70],2,4)debiera devolver [20,30,70].
+
+        function removerRango(arr, rangoMin, rangoMax) {
+
+            if (rangoMax > arr.length) rangoMax = arr.length;
+            if (rangoMin > rangoMax) rangoMin = rangoMax;
+
+            const newArray = [];
+
+            for (let i in arr) {
+                if (!(i >= rangoMin && i <= rangoMax)) newArray.push(arr[i]);
+            }
+
+            console.log(newArray);
+
+        }
+
+        const arr = [30, 50, 40, 20, 0]
+        removerRango(arr, 0, 1)
+
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo V - Ejercicio 1</title>
+    <script>
+
+        // 1. Configura un array para que los valores negativos se transformen en 0. Por ejemplo, resetNegativos([1,2,-1,-3]) debiera dar como resultado [1,2,0,0].
+
+        let array = [1, 2, 3, -4, -1, 5, -10, 6, -100]
+        
+        for(let i = 0; i < array.length; i++){
+            if(array[i] < 0){
+                array[i] = 0
+            }
+        }
+
+        console.log(array)
+
+    </script>
+</head>
+<body>
+</body>
+</html>
