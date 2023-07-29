@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+D:\stm\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1909106456.index
+\mostrarlafecha\src\main\java

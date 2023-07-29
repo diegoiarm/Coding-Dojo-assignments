@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Tiempo - Mostrar la fecha</title>
+        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/timestyle.css">
+        <script type="text/javascript" src="js/app-time.js"></script>
+</head>
+<body>
+         
+      <h1 id="h1time">holanda</h1>
+</body>
+</html>
