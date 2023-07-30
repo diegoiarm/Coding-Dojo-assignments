@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;com.codingdojo.fizzbuzz.FizzBuzz.FizzBuzz(...)&apos; to &apos;fizzBuzz&apos;&#x0D;&#x0A;- Original project: &apos;FizzBuzz&apos;&#x0D;&#x0A;- Original element: &apos;com.codingdojo.fizzbuzz.FizzBuzz.FizzBuzz(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;com.codingdojo.fizzbuzz.FizzBuzz.fizzBuzz(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;FizzBuzz&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;com.codingdojo.fizzbuzz{FizzBuzz.java[FizzBuzz~FizzBuzz~I" name="fizzBuzz" references="true" stamp="1687989075702" version="1.0"/>
+</session>
