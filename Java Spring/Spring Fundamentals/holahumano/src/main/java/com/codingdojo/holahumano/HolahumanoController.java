@@ -10,14 +10,14 @@ public class HolahumanoController {
 	@RequestMapping("")
 	public String index(@RequestParam(value = "name", required = false) String name,
 			@RequestParam(value = "lastName", required = false) String lastname) {
-		// Si no se entrega un nombre, imprimir "Hola Humano!".
+		// Si no se entrega un nombre, retorna "Hola Humano!".
 		if (name == null) {
 			return "<h1>Hola Humano!</h1><br>Bienvenid@ a Spring Boot!";
 		} else {
-			// Caso contrario, imprimir "Hola (nombre)!".
+			// Caso contrario, retorna "Hola (nombre)!".
 			String greeting = "<h1>Hola " + name;
 			if (lastname != null && !lastname.isEmpty()) {
-				// Se comprueba que se haya entregado un apellido. De haber, se imprime Hola
+				// Se comprueba que se haya entregado un apellido. De haber, se retorna Hola
 				// (nombre) (apellido)!.
 				greeting += " " + lastname;
 			}
