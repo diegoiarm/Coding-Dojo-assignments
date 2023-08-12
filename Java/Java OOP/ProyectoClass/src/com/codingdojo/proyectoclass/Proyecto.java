@@ -1,22 +1,28 @@
 package com.codingdojo.proyectoclass;
 
-public class ProyectoClass {
+public class Proyecto {
 
 	private String nombre;
 	private String descripcion;
 	private double initialCost;
 
-	public ProyectoClass() {
+	public Proyecto() {
 
 	}
 
-	public ProyectoClass(String nombre) {
+	public Proyecto(String nombre) {
 		this.nombre = nombre;
 	}
 
-	public ProyectoClass(String nombre, String descripcion) {
+	public Proyecto(String nombre, String descripcion) {
 		this.nombre = nombre;
 		this.descripcion = descripcion;
+	}
+	
+	public Proyecto(String nombre, String descripcion, double initialCost) {
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.initialCost = initialCost;
 	}
 
 	public String getNombre() {
@@ -35,7 +41,6 @@ public class ProyectoClass {
 		this.descripcion = descripcion;
 	}
 	
-	
 
 	public double getInitialCost() {
 		return initialCost;
@@ -45,7 +50,7 @@ public class ProyectoClass {
 		this.initialCost = initialCost;
 	}
 
-	public void elevatorPitch() {
-		System.out.println(nombre + (initialCost) + " : " + descripcion);
+	public String elevatorPitch() {
+		return nombre + " (" + (initialCost) + "): " + descripcion;
 	}
 }
